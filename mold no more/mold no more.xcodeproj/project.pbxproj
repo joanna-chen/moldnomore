@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37066548B8BA84675137AE67 /* libPods-mold no more.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C624CE3D819A71FB6CF7F4 /* libPods-mold no more.a */; };
 		9E18BC231DB1D4B300AB256B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18BC221DB1D4B300AB256B /* AppDelegate.swift */; };
 		9E18BC251DB1D4B300AB256B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18BC241DB1D4B300AB256B /* ViewController.swift */; };
 		9E18BC281DB1D4B300AB256B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E18BC261DB1D4B300AB256B /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83D0024178F627ACDB89DC34 /* Pods-mold no more.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mold no more.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mold no more/Pods-mold no more.debug.xcconfig"; sourceTree = "<group>"; };
 		9E18BC1F1DB1D4B200AB256B /* mold no more.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mold no more.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E18BC221DB1D4B300AB256B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E18BC241DB1D4B300AB256B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,9 @@
 		9E18BC291DB1D4B300AB256B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E18BC2C1DB1D4B300AB256B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E18BC2E1DB1D4B300AB256B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E18BC341DB1DDB800AB256B /* -Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0C624CE3D819A71FB6CF7F4 /* libPods-mold no more.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mold no more.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA810C96331336E0AB92AA51 /* Pods-mold no more.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mold no more.release.xcconfig"; path = "Pods/Target Support Files/Pods-mold no more/Pods-mold no more.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37066548B8BA84675137AE67 /* libPods-mold no more.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		240DB047C369219563F59DAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83D0024178F627ACDB89DC34 /* Pods-mold no more.debug.xcconfig */,
+				DA810C96331336E0AB92AA51 /* Pods-mold no more.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9E18BC161DB1D4B200AB256B = {
 			isa = PBXGroup;
 			children = (
+				9E18BC341DB1DDB800AB256B /* -Bridging-Header.h */,
 				9E18BC211DB1D4B300AB256B /* mold no more */,
 				9E18BC201DB1D4B200AB256B /* Products */,
+				240DB047C369219563F59DAA /* Pods */,
+				B1C75B00606C1A3DD2B14764 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +82,14 @@
 			path = "mold no more";
 			sourceTree = "<group>";
 		};
+		B1C75B00606C1A3DD2B14764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C624CE3D819A71FB6CF7F4 /* libPods-mold no more.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +97,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E18BC311DB1D4B300AB256B /* Build configuration list for PBXNativeTarget "mold no more" */;
 			buildPhases = (
+				82EA84A720B3A2C8BC9DCC93 /* [CP] Check Pods Manifest.lock */,
 				9E18BC1B1DB1D4B200AB256B /* Sources */,
 				9E18BC1C1DB1D4B200AB256B /* Frameworks */,
 				9E18BC1D1DB1D4B200AB256B /* Resources */,
+				25475CC0944C529DDC842A9D /* [CP] Embed Pods Frameworks */,
+				7CD2F22826B6140580FD1B21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25475CC0944C529DDC842A9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mold no more/Pods-mold no more-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7CD2F22826B6140580FD1B21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mold no more/Pods-mold no more-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82EA84A720B3A2C8BC9DCC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E18BC1B1DB1D4B200AB256B /* Sources */ = {
@@ -247,23 +324,27 @@
 		};
 		9E18BC321DB1D4B300AB256B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D0024178F627ACDB89DC34 /* Pods-mold no more.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mold no more/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joannachen.mold-no-more";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		9E18BC331DB1D4B300AB256B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA810C96331336E0AB92AA51 /* Pods-mold no more.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "mold no more/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joannachen.mold-no-more";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +367,7 @@
 				9E18BC331DB1D4B300AB256B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
