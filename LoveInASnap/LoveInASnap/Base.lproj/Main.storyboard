@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="LoveInASnap" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TyZ-Rd-pJC"/>
+                        <viewControllerLayoutGuide type="bottom" id="03X-da-6SF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pm6-fr-Yvv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3C8-6d-WmS">
+                                <rect key="frame" x="36" y="88" width="248" height="221"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LVg-ev-ijX">
+                                        <rect key="frame" x="1" y="1" width="246" height="219"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="vXZ-lx-hvc" id="CB0-qO-lRe"/>
+                                        </connections>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="5Fk-xK-Y9b"/>
+                                    <constraint firstAttribute="height" constant="221" id="GHy-WH-RR8"/>
+                                    <constraint firstItem="LVg-ev-ijX" firstAttribute="top" secondItem="3C8-6d-WmS" secondAttribute="top" constant="1" id="Iwg-Rf-whJ"/>
+                                    <constraint firstItem="LVg-ev-ijX" firstAttribute="leading" secondItem="3C8-6d-WmS" secondAttribute="leading" constant="1" id="UOL-Cs-pmS"/>
+                                    <constraint firstAttribute="trailing" secondItem="LVg-ev-ijX" secondAttribute="trailing" constant="1" id="bNJ-3K-Wor"/>
+                                    <constraint firstAttribute="bottom" secondItem="LVg-ev-ijX" secondAttribute="bottom" constant="1" id="gdx-DP-vDF"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InM-Rb-jXE">
+                                <rect key="frame" x="20" y="329" width="280" height="126"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                <state key="normal" title="Snap/Upload a picture of your Receipt">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="takePhoto:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="6T0-wI-NsH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="InM-Rb-jXE" firstAttribute="top" secondItem="3C8-6d-WmS" secondAttribute="bottom" constant="30" id="cyP-rk-1S5"/>
+                            <constraint firstAttribute="centerX" secondItem="3C8-6d-WmS" secondAttribute="centerX" id="tyq-35-cmI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView" destination="LVg-ev-ijX" id="hkC-pT-NGf"/>
+                        <outlet property="topMarginConstraint" destination="cyP-rk-1S5" id="7U2-La-QuS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102" y="268"/>
+        </scene>
+    </scenes>
+</document>
