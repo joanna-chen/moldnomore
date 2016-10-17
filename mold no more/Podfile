@@ -3,9 +3,13 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs/tree/master/Specs/JTAppleCalendar'
+platform :ios, '10.0'
+use_frameworks!
+
 target 'mold no more' do
 
-pod 'TesseractOCRiOS', '4.0.0'
+  pod 'TesseractOCRiOS', '4.0.0'
+  pod 'JTAppleCalendar', '~> 5.0.1'
 
 end
-

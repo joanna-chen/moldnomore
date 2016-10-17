@@ -1,0 +1,6 @@
+framework module Pods_mold_no_more {
+  umbrella header "Pods-mold no more-umbrella.h"
+
+  export *
+  module * { export * }
+}

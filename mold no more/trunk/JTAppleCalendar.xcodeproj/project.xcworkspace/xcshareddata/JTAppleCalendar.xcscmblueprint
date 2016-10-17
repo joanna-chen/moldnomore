@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c17ac26a-4c21-261e-256f-ce57b7db7bff++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c17ac26a-4c21-261e-256f-ce57b7db7bff++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "24D9B64DCCE1DF88680BFC18F34D1857C6DAEDD0" : 9223372036854775807,
+    "c17ac26a-4c21-261e-256f-ce57b7db7bff++505" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BF8C6EB1-F78F-405F-B304-AFA10E6FC080",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "24D9B64DCCE1DF88680BFC18F34D1857C6DAEDD0" : "..",
+    "c17ac26a-4c21-261e-256f-ce57b7db7bff++505" : "trunk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JTAppleCalendar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JTAppleCalendar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/joanna-chen\/moldnomore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24D9B64DCCE1DF88680BFC18F34D1857C6DAEDD0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/patchthecode\/JTAppleCalendar",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c17ac26a-4c21-261e-256f-ce57b7db7bff++505"
+    }
+  ]
+}

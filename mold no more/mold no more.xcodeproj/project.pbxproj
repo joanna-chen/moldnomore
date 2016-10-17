@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		37066548B8BA84675137AE67 /* libPods-mold no more.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C624CE3D819A71FB6CF7F4 /* libPods-mold no more.a */; };
+		7F93CEF7BE890A02F56BE73D /* Pods_mold_no_more.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F6292D70C9E127D5AE255C /* Pods_mold_no_more.framework */; };
 		9E18BC231DB1D4B300AB256B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18BC221DB1D4B300AB256B /* AppDelegate.swift */; };
 		9E18BC251DB1D4B300AB256B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E18BC241DB1D4B300AB256B /* ViewController.swift */; };
 		9E18BC281DB1D4B300AB256B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E18BC261DB1D4B300AB256B /* Main.storyboard */; };
@@ -25,7 +25,7 @@
 		9E18BC2C1DB1D4B300AB256B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E18BC2E1DB1D4B300AB256B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E18BC341DB1DDB800AB256B /* -Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "-Bridging-Header.h"; sourceTree = "<group>"; };
-		C0C624CE3D819A71FB6CF7F4 /* libPods-mold no more.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mold no more.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F6292D70C9E127D5AE255C /* Pods_mold_no_more.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mold_no_more.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA810C96331336E0AB92AA51 /* Pods-mold no more.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mold no more.release.xcconfig"; path = "Pods/Target Support Files/Pods-mold no more/Pods-mold no more.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37066548B8BA84675137AE67 /* libPods-mold no more.a in Frameworks */,
+				7F93CEF7BE890A02F56BE73D /* Pods_mold_no_more.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 		B1C75B00606C1A3DD2B14764 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0C624CE3D819A71FB6CF7F4 /* libPods-mold no more.a */,
+				C9F6292D70C9E127D5AE255C /* Pods_mold_no_more.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +125,7 @@
 				TargetAttributes = {
 					9E18BC1E1DB1D4B200AB256B = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -332,6 +333,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joannachen.mold-no-more";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -345,6 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joannachen.mold-no-more";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
